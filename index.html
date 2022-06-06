@@ -5,7 +5,9 @@
   </head>
 	<body>
 		<script>
-			location.assign("https://www.bilibili.com/video/BV175411Q7nU");
+			const urls=["https://www.bilibili.com/video/BV175411Q7nU", "https://www.bilibili.com/video/BV1PY411g7Nw"];
+			const len=length(urls);
+			location.assign(urls[Math.floor(Math.random()*len)]);
 		</script>
 	</body>
 </html>
